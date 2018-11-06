@@ -1,0 +1,28 @@
+{
+  "name": "contact-api-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "debug": "DEBUG=contact-api-app:* node --inspect ./bin/www",
+    "watch": "DEBUG=contact-api-app:* nodemon --inspect ./bin/www --ignore /data"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "boom": "^7.2.0",
+    "confiq": "^0.0.3",
+    "cookie-parser": "^1.4.3",
+    "debug": "^4.1.0",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.3.0",
+    "lib": "^3.0.2",
+    "mongoose": "^5.3.5",
+    "mongoose-id-validator": "^0.5.0",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "nodemon": "^1.18.4"
+  }
+}
